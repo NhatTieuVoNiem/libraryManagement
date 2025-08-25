@@ -88,6 +88,20 @@ CREATE TABLE BorrowingDetails (
     CONSTRAINT FK_BorrowingDetails_Books FOREIGN KEY (BookID) REFERENCES Books(BookID)
 );
 
+-- Bảng Người dùng hệ thống
+
+CREATE TABLE Users (
+    UserID INT IDENTITY(1,1) PRIMARY KEY,
+    Username NVARCHAR(50) NOT NULL UNIQUE,      
+    PasswordHash NVARCHAR(255) NOT NULL,        
+    FullName NVARCHAR(100) NOT NULL,            
+    Email NVARCHAR(100) UNIQUE,                
+    Role NVARCHAR(50) NOT NULL DEFAULT 'Staff', 
+    IsActive BIT DEFAULT 1,                     
+    CreatedAt DATETIME DEFAULT GETDATE(),       
+    Note NVARCHAR(255) NULL                    
+);
+
 GO
 -- them du lieu
 
