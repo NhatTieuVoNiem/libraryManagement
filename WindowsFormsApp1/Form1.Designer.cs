@@ -39,8 +39,8 @@
             this.checkBoxHienMatKhau = new System.Windows.Forms.CheckBox();
             this.buttonQuenMatKhau = new System.Windows.Forms.Button();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.buttonDangNhap = new System.Windows.Forms.Button();
             this.buttonDangKy = new System.Windows.Forms.Button();
+            this.buttonDangNhap = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -53,7 +53,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 85F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 674F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 8F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 53F));
             this.tableLayoutPanel1.Controls.Add(this.label1, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 2, 2);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 2, 3);
@@ -155,7 +155,7 @@
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 73F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(668, 73);
             this.tableLayoutPanel3.TabIndex = 2;
             // 
@@ -200,16 +200,6 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(668, 172);
             this.tableLayoutPanel4.TabIndex = 3;
             // 
-            // buttonDangNhap
-            // 
-            this.buttonDangNhap.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDangNhap.Location = new System.Drawing.Point(3, 3);
-            this.buttonDangNhap.Name = "buttonDangNhap";
-            this.buttonDangNhap.Size = new System.Drawing.Size(134, 42);
-            this.buttonDangNhap.TabIndex = 0;
-            this.buttonDangNhap.Text = "Đăng nhập";
-            this.buttonDangNhap.UseVisualStyleBackColor = true;
-            // 
             // buttonDangKy
             // 
             this.buttonDangKy.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -220,6 +210,16 @@
             this.buttonDangKy.Text = "Đăng ký";
             this.buttonDangKy.UseVisualStyleBackColor = true;
             this.buttonDangKy.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // buttonDangNhap
+            // 
+            this.buttonDangNhap.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonDangNhap.Location = new System.Drawing.Point(3, 3);
+            this.buttonDangNhap.Name = "buttonDangNhap";
+            this.buttonDangNhap.Size = new System.Drawing.Size(134, 42);
+            this.buttonDangNhap.TabIndex = 0;
+            this.buttonDangNhap.Text = "Đăng nhập";
+            this.buttonDangNhap.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
